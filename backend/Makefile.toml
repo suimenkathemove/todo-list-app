@@ -1,0 +1,4 @@
+[tasks.codegen]
+script = '''
+oapi-codegen --config ./openapi/config.yml ../schema.yml
+'''
